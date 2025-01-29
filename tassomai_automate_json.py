@@ -232,7 +232,7 @@ def start_answer():
                 time.sleep(3)
 
         else:
-            print("\nno answer found, adding to data base")
+            print("\no answer found, adding to data base")
             click()
             time.sleep(1.5)
             x1, y1, x2, y2 = 400, 515, 930, 690
@@ -310,6 +310,5 @@ while True:
     time.sleep(1)
 
 # 175% zoom
-# full screen
-# aria open on the left 
+# f11 full screen
 # may need to change some of the coordingates if screenshots not accurate, detecting wrong text or moving to wrong positions
